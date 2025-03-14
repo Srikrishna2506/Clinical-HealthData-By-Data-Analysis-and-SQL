@@ -13,15 +13,15 @@ Microsoft SQL server
 
 SQL Server Management Studio (SSMS)
 
-** You can use any SQL platform to perform your project; this is a personal preference.
+** You can use any SQL platform to perform your project "; this is a personal preference.
 
 
 # SOCIAL HANDLE
 
-Instagram: https://www.instagram.com/_kittu25__
+Instagram : https://www.instagram.com/_kittu25__
 
-Twitter : https://x.com/_kittu25__
+Twitter :   https://x.com/_kittu25__
 
-LinkedIn: https://www.linkedin.com/in/Srikrishnalaxetti
+LinkedIn:   https://www.linkedin.com/in/Srikrishnalaxetti
 
-Git: https://github.com/Kittu2599/Clinical-healthdata-by-sql
+
