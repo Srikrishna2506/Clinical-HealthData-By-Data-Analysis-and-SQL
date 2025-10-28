@@ -1,40 +1,115 @@
-# Title : Clinical-HealthData-By-Data-Analysis-and-SQL
+# 🩺 Clinical Database SQL Project
 
-# Description :
-Welcome to our comprehensive project designed to guide you through the exciting world of SQL learning! Whether you're a beginner eager to explore the foundations of querying databases or a data enthusiast seeking to refine your data analysis skills, this project is your ultimate resource.
+## 📘 Overview
+This project demonstrates how to *create and manage a Clinical Database* using *Microsoft SQL Server (SSMS)*.  
+It covers key SQL concepts such as creating databases, tables, inserting data, updating records, and applying constraints.
 
-In this project, we've curated a wealth of resources and learning paths that cater to various learning styles and skill levels. Our goal is to empower you with the knowledge and techniques required to effectively use SQL for data analysis.
+---
 
-This is my Second SQL project. I used a clinical trial dataset. Here I have started by learning: To design a database, Create a table, Add data to the table, Update the column name, Alter the data in the table, Define the questions that need to be answered, Clean the dataset, and Perform Exploratory Data analysis.
+## 📂 Project Structure
 
-# Key Features:
+| File Name | Description |
+|------------|-------------|
+| *creatingdb.sql* | Creates a new database called ClinicalDB. |
+| *creatingtable.sql* | Defines the table clinical_data with patient-related columns. |
+| *insertingdata.sql* | Inserts sample data into the clinical_data table. |
+| *pfkeys.sql* | Adds primary key and foreign key constraints. |
+| *questions.sql* | Exploration of data analysis questions . |
+| *verifying.sql* | Verifies table structure and performs schema checks. |
 
-✅ Database Design – Structured tables for clinical trial data
+---
 
-✅ Data Cleaning – Removed inconsistencies and prepared data for analysis
+## 🧱 Table Structure Example
 
-✅ Data Manipulation – Created, updated, and altered tables efficiently
+| Column Name | Data Type | Description |
+|--------------|------------|-------------|
+| *PatientID* | INT | Unique ID for each patient (Primary Key) |
+| *Age* | INT | Patient's age |
+| *Sex* | VARCHAR(6) | Gender of the patient (Male/Female) |
+| *Treatment* | VARCHAR(15) | Type of treatment given |
+| *EfficacyScore* | DECIMAL(4,2) | Treatment effectiveness score |
+| *SideEffect* | VARCHAR(3) | Indicates if side effects occurred (‘Yes’/‘No’) |
+| *BloodPressure* | VARCHAR(10) | Patient’s BP reading (e.g. 120/80) |
+| *DateVisited* | DATE | Date of hospital visit |
+| *BMI* | DECIMAL(4,2) | Body Mass Index |
+| *Cholesterol* | INT | Cholesterol level |
+| *SmokingStatus* | VARCHAR(12) | Smoker or Non-smoker status |
 
-✅ SQL Queries – Extracted insights using Joins, Aggregations, Subqueries
+---
 
-✅ Data Analysis – Answered key research questions using SQL
+## 🧩 SQL Concepts Used
+
+- *CREATE DATABASE* – To create a new database  
+- *CREATE TABLE* – To define table structure  
+- *INSERT INTO* – To add data into tables  
+- *ALTER TABLE / sp_rename* – To modify or rename columns  
+- *UPDATE / CASE WHEN* – To update data conditionally  
+- *EXEC sp_help* – To display schema details  
+- *PRIMARY KEY / FOREIGN KEY* – To maintain referential integrity  
+
+---
+
+🧠 Key Learnings
+
+Creating and managing SQL databases in MS SQL Server
+
+Performing data cleaning and updates
+
+Writing exploratory data analysis (EDA) queries
+
+Understanding primary keys and foreign keys
+
+Using SQL for healthcare data analytics
 
 
-# TOOLS USED
 
-Microsoft SQL server
+---
 
-SQL Server Management Studio (SSMS)
+📁 How to Run
 
-** You can use any SQL platform to perform your project ; this is a personal preference
+1. Open each .sql file in SSMS
 
 
-# SOCIAL HANDLE
+2. Run them in this order:
 
-Instagram : https://www.instagram.com/_kittu25__
+1. creatingdb.sql
 
-Twitter :   https://x.com/_kittu25__
 
-LinkedIn:   https://www.linkedin.com/in/Srikrishnalaxetti
+2. creatingtable.sql
 
+
+3. insertingdata.sql
+
+
+4. pfkeys.sql
+
+
+5. questions.sql
+
+
+6. verifying.sql
+
+
+---
+
+3. Verify the database structure using:
+
+EXEC sp_help 'clinical_data';
+
+---
+
+📊 Tools Used
+
+Microsoft SQL Server Management Studio (SSMS)
+
+GitHub for version control and project sharing
+
+
+---
+
+🙌 Author
+
+Srikrishna Laxetti
+
+SQL Developer | Data Analyst Learner
 
